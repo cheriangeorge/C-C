@@ -3,6 +3,14 @@
          {
              "src": "api/app.py",
              "use": "@vercel/python"
+         },
+      {
+             "src": "api/model.py",
+             "use": "@vercel/python"
+         },
+      {
+             "src": "api/validate.py",
+             "use": "@vercel/python"
          }
      ],
      "routes": [
